@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.rtl.css">
+      <link rel="stylesheet" href="css/bootstrap-icons.css">
+      <link rel="stylesheet" href="css/owl.carousel.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+      <link rel="stylesheet" href="style.css">
+      <title>جستجوی محصول</title>
+   </head>
+   <body>
+      <div id="responsive_Menu_Btn">
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+      <div class="responsive-menu-container w-100 bg-white p-4">
+         <div id="responsive_Menu_Btn" class="close_responsive_Menu">
+            <span></span>
+            <span></span>
+         </div>
+         <ul>
+            <li><a href="index.html">خانه</a></li>
+            <li>
+               <a href="#">فروشگاه</a>
+            </li>
+            <li><a href="404.html">404</a></li>
+            <li><a href="cart.html">سبد خرید</a></li>
+            <li>
+               <a href="#">صفحات</a>
+               <ul>
+                  <li><a href="login-register.html">ورود به حساب</a></li>
+                  <li><a href="purchase.html">تسویه حساب</a></li>
+                  <li>
+                     <a href="#">مطالب</a>
+                     <ul>
+                        <li><a href="single.html">جزئیات نوشته</a></li>
+                        <li><a href="category.html">صفحه دسته بندی</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+      <header class="mb-5">
+         <div class="top-menu position-relative">
+            <div class="container">
+               <span id="responsive_Menu_Btn">
+               <span></span>
+               <span></span>
+               <span></span>
+               </span>
+               <div class="row">
+                  <div class="col-md-9 d-none d-md-block">
+                     <div class="main-menu">
+                        <ul>
+                           <li><a href="index.html">خانه</a></li>
+                           <li>
+                              <a href="#">فروشگاه</a>
+                           </li>
+                           <li><a href="404.html">404</a></li>
+                           <li><a href="cart.html">سبد خرید</a></li>
+                           <li>
+                              <a href="#">صفحات</a>
+                              <ul>
+                                 <li><a href="login-register.html">ورود به حساب</a></li>
+                                 <li><a href="purchase.html">تسویه حساب</a></li>
+                                 <li>
+                                    <a href="#">مطالب</a>
+                                    <ul>
+                                       <li><a href="single.html">جزئیات نوشته</a></li>
+                                       <li><a href="category.html">صفحه دسته بندی</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-12">
+                     <div class="top-access">
+                        <ul class="text-center p-0">
+                           <li class="d-inline-block" data-bs-toggle="tooltip" data-bs-placement="top"
+                              title="سبد خرید"><a href="cart.html" class="text-light d-inline-block"><i
+                              class="bi bi-bag"></i></a></li>
+                           <li class="d-inline-block" data-bs-toggle="tooltip" data-bs-placement="top"
+                              title="حساب کاربری"><a href="panel-user-profile.html" class="text-light d-inline-block"><i
+                              class="bi bi-person"></i></a></li>
+                           <li class="d-inline-block" data-bs-toggle="tooltip" data-bs-placement="top"
+                              title="علاقمندی ها"><a href="panel-favorits.html" class="text-light d-inline-block"><i
+                              class="bi bi-heart"></i></a></li>
+                           <li data-bs-toggle="modal" data-bs-target="#exampleModal" class="d-inline-block"><a href="#" class="text-light d-inline-block" data-bs-toggle="tooltip" data-bs-placement="top"
+                              title="جستجو"><i
+                              class="bi bi-search"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-body">
+                     <form action="">
+                        <input type="text" placeholder="جستجو کنید ...">
+                        <button><i class="bi bi-search"></i></button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid px-0">
+            <div class="page-title-box text-center">
+               <div class="bread-crumb-box pb-3">
+                  <ol>
+                     <li><a href="index.html">خانه</a></li>
+                     <li><span>جستجوی محصول</span></li>
+                  </ol>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-9 col-md-8 mb-3 mb-md-0">
+                  <div class="bg-white p-3 rounded">
+                     <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                           <div class="product-item product-item-vertical produt-item-border p-3 bg-white rounded my-3">
+                              <a href="#">
+                                 <figure class="w-100 position-relative overflow-hidden border-bottom">
+                                    <img src="img/product/10.jpeg" alt="" class="d-table mx-auto">
+                                    <figcaption class="position-absolute w-100 h-100 text-center">
+                                       <ul class="p-0">
+                                          <li class="d-inline-block" data-bs-toggle="tooltip"
+                                             data-bs-placement="top" title="مشاهده محصول">
+                              <a href="#"
+                                 class="d-inline-block"><i class="bi bi-eye"></i></a></li>
+                              <li class="d-inline-block" data-bs-toggle="tooltip"
+                                 data-bs-placement="top" title="افزودن به علاقمندی"><a href="#"
+                                 class="d-inline-block"><i class="bi bi-heart"></i></a></li>
+                              </ul>
+                              </figcaption>
+                              </figure>
+                              </a>
+                              <a href="#">
+                                 <h5 class="m-0 py-2 text-center overflow-hidden">سینک گرانیتی تست مدل k-456</h5>
+                              </a>
+                              <p class="text-center overflow-hidden mt-2">لورم ایپسوم متن ساختگی با تولید سادگی
+                                 نامفهوم از
+                                 صنعت چاپ و با استفاده از طراحان گرافیک است
+                              </p>
+                              <div class="product-rate text-center mb-2">
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-dark"></i>
+                              </div>
+                              <div class="product-price d-flex">
+                                 <span class="d-inline-block w-100 text-start">2.200.000 تومان</span>
+                                 <del class="d-inline-block w-100 text-end">2.450.000 تومان</del>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                           <div class="product-item product-item-vertical produt-item-border p-3 bg-white rounded my-3">
+                              <a href="#">
+                                 <figure class="w-100 position-relative overflow-hidden border-bottom">
+                                    <img src="img/product/10.jpeg" alt="" class="d-table mx-auto">
+                                    <figcaption class="position-absolute w-100 h-100 text-center">
+                                       <ul class="p-0">
+                                          <li class="d-inline-block" data-bs-toggle="tooltip"
+                                             data-bs-placement="top" title="مشاهده محصول">
+                              <a href="#"
+                                 class="d-inline-block"><i class="bi bi-eye"></i></a></li>
+                              <li class="d-inline-block" data-bs-toggle="tooltip"
+                                 data-bs-placement="top" title="افزودن به علاقمندی"><a href="#"
+                                 class="d-inline-block"><i class="bi bi-heart"></i></a></li>
+                              </ul>
+                              </figcaption>
+                              </figure>
+                              </a>
+                              <a href="#">
+                                 <h5 class="m-0 py-2 text-center overflow-hidden">سینک گرانیتی تست مدل k-456</h5>
+                              </a>
+                              <p class="text-center overflow-hidden mt-2">لورم ایپسوم متن ساختگی با تولید سادگی
+                                 نامفهوم از
+                                 صنعت چاپ و با استفاده از طراحان گرافیک است
+                              </p>
+                              <div class="product-rate text-center mb-2">
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-dark"></i>
+                              </div>
+                              <div class="product-price d-flex">
+                                 <span class="d-inline-block w-100 text-start">2.200.000 تومان</span>
+                                 <del class="d-inline-block w-100 text-end">2.450.000 تومان</del>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                           <div class="product-item product-item-vertical produt-item-border p-3 bg-white rounded my-3">
+                              <a href="#">
+                                 <figure class="w-100 position-relative overflow-hidden border-bottom">
+                                    <img src="img/product/10.jpeg" alt="" class="d-table mx-auto">
+                                    <figcaption class="position-absolute w-100 h-100 text-center">
+                                       <ul class="p-0">
+                                          <li class="d-inline-block" data-bs-toggle="tooltip"
+                                             data-bs-placement="top" title="مشاهده محصول">
+                              <a href="#"
+                                 class="d-inline-block"><i class="bi bi-eye"></i></a></li>
+                              <li class="d-inline-block" data-bs-toggle="tooltip"
+                                 data-bs-placement="top" title="افزودن به علاقمندی"><a href="#"
+                                 class="d-inline-block"><i class="bi bi-heart"></i></a></li>
+                              </ul>
+                              </figcaption>
+                              </figure>
+                              </a>
+                              <a href="#">
+                                 <h5 class="m-0 py-2 text-center overflow-hidden">سینک گرانیتی تست مدل k-456</h5>
+                              </a>
+                              <p class="text-center overflow-hidden mt-2">لورم ایپسوم متن ساختگی با تولید سادگی
+                                 نامفهوم از
+                                 صنعت چاپ و با استفاده از طراحان گرافیک است
+                              </p>
+                              <div class="product-rate text-center mb-2">
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-dark"></i>
+                              </div>
+                              <div class="product-price d-flex">
+                                 <span class="d-inline-block w-100 text-start">2.200.000 تومان</span>
+                                 <del class="d-inline-block w-100 text-end">2.450.000 تومان</del>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                           <div class="product-item product-item-vertical produt-item-border p-3 bg-white rounded my-3">
+                              <a href="#">
+                                 <figure class="w-100 position-relative overflow-hidden border-bottom">
+                                    <img src="img/product/2.jpg" alt="" class="d-table mx-auto">
+                                    <figcaption class="position-absolute w-100 h-100 text-center">
+                                       <ul class="p-0">
+                                          <li class="d-inline-block" data-bs-toggle="tooltip"
+                                             data-bs-placement="top" title="مشاهده محصول">
+                              <a href="#"
+                                 class="d-inline-block"><i class="bi bi-eye"></i></a></li>
+                              <li class="d-inline-block" data-bs-toggle="tooltip"
+                                 data-bs-placement="top" title="افزودن به علاقمندی"><a href="#"
+                                 class="d-inline-block"><i class="bi bi-heart"></i></a></li>
+                              </ul>
+                              </figcaption>
+                              </figure>
+                              </a>
+                              <a href="#">
+                                 <h5 class="m-0 py-2 text-center overflow-hidden">سینک گرانیتی تست مدل k-456</h5>
+                              </a>
+                              <p class="text-center overflow-hidden mt-2">لورم ایپسوم متن ساختگی با تولید سادگی
+                                 نامفهوم از
+                                 صنعت چاپ و با استفاده از طراحان گرافیک است
+                              </p>
+                              <div class="product-rate text-center mb-2">
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-warning"></i>
+                                 <i class="bi bi-star text-dark"></i>
+                              </div>
+                              <div class="product-price d-flex">
+                                 <span class="d-inline-block w-100 text-start">2.200.000 تومان</span>
+                                 <del class="d-inline-block w-100 text-end">2.450.000 تومان</del>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12">
+                           <div class="pagination-box my-3">
+                              <span class="current">1</span>
+                              <a href="#">2</a>
+                              <a href="#">3</a>
+                              <a href="#">4</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4">
+                  <aside>
+                     <div class="blog-sidebar bg-white p-3 mb-3">
+                        <span class="title border-bottom position-relative d-block pb-3 mb-3">دسته محصولات</span>
+                        <ul>
+                           <li><a href="#">سینک گرانیتی دو لگن</a></li>
+                           <li><a href="#">روشویی گرانیتی</a></li>
+                           <li><a href="#">سینک های اکلیلی</a></li>
+                           <li><a href="#">سینک طرح دار گرانیت</a></li>
+                        </ul>
+                        <div class="search-blog mt-5">
+                           <form action="">
+                              <input type="text" placeholder="جستجوی محصول ..." class="m-0">
+                              <button><i class="bi bi-search"></i></button>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="blog-sidebar bg-white p-3">
+                        <span class="title border-bottom position-relative d-block pb-3 mb-3">فیلتر بر اساس نوع</span>
+                        <div class="product-fliter-sidebar">
+                           <form action="">
+                              <div class="form-check my-3">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                 <label class="form-check-label" for="flexCheckDefault">
+                                 نوع تک لگن
+                                 </label>
+                              </div>
+                              <div class="form-check my-3">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                 <label class="form-check-label" for="flexCheckChecked">
+                                 نوع دو لگن
+                                 </label>
+                              </div>
+                              <div class="form-check my-3">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                 <label class="form-check-label" for="flexCheckChecked">
+                                 نوع یک لگن و نیم
+                                 </label>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </aside>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="py-4 mt-5 position-relative">
+         <span class="scrooltop position-absolute"></span>
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="footer-menu">
+                     <ul class="p-0 my-3 text-center">
+                        <li><a href="#">مشتریان</a></li>
+                        <li><a href="#">قوانین</a></li>
+                        <li><a href="#">خرید کالا</a></li>
+                        <li><a href="#">درباره فروشگاه</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-4 col-12">
+                  <div class="footer-box">
+                     <ul class="p-0">
+                        <li class="d-block w-100 py-2">
+                           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="footer-box text-center">
+                     <span class="title title-center py-3 pb-4 d-block position-relative">ما را دنبال کنید</span>
+                     <ul class="p-0 social-ul">
+                        <li class="d-inline-block m-1"><a href="#" class="d-inline-block p-2"><i class="bi bi-instagram"></i></a></li>
+                        <li class="d-inline-block m-1"><a href="#" class="d-inline-block p-2"><i class="bi bi-linkedin"></i></a></li>
+                        <li class="d-inline-block m-1"><a href="#" class="d-inline-block p-2"><i class="bi bi-twitter"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="footer-box">
+                     <span class="title py-3 pb-4 d-block position-relative">تماس با ما</span>
+                     <ul class="p-0">
+                        <li class="d-block w-100 py-2">
+                           <span><i class="bi bi-telephone-inbound"></i>&nbsp;04131234567</span>
+                        </li>
+                        <li class="d-block w-100 py-2">
+                           <span><i class="bi bi-geo-alt"></i>&nbsp;تبریز ، خیابان المهدی ، کوی المهدی ، پلاک 4</span>
+                        </li>
+                        <li class="d-block w-100 py-2">
+                           <span><i class="bi bi-clock"></i>&nbsp;شنبه تا پنشجنه 8 الی 21</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src="js/jQuery.js"></script>
+      <script src="js/popper.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/jquery.simple.timer.js"></script>
+      <script src="js/jquery.elevatezoom.js"></script>
+      <script src="js/jquery.fancybox.min.js"></script>
+      <script src="js/index.js"></script>
+   </body>
+</html>
