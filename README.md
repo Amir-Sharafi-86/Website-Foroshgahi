@@ -1,5 +1,5 @@
 # Website-Shop
-This project is a store that is powered by Tilwind CSS and has a bit of JavaScript and is fully responsive on all devices
+This project is a store that is powered by  Bootstrap and has a bit of JavaScript and is fully responsive on all devices
 # Installation 
  Install file Bootstrap
  Install file JavaScripts
